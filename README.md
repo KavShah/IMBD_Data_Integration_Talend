@@ -74,4 +74,9 @@ This dataset (ml-25m) describes 5-star rating and free-text tagging activity fro
 •<b>Files</b><br>
 ▪The Numbers -Domestic Box Office -Franchises.tsv<br>
 ▪The Numbers -Domestic Box Office -Franchises -Marvel Cinematic Universe.tsv<br>
-▪The Numbers -Domestic Box Office Daily -The Avengers.tsv<br>
+▪The Numbers -Domestic Box Office Daily -The Avengers.tsv<br><br><br>
+## IMDb Project Deliverables<br>
+>•Ingest initial set of tsvor csv files into staging tables<br>
+>•Design and load dimensional model for above data<br>
+>•Perform data consistency & cleansing processes<br>
+>•Add supplemental data to model•Design and create BI visualizations answering business questions<br>
