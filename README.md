@@ -1,6 +1,6 @@
 # IMBD_DataIntegration_Talend
 ## IMDb Datasets
-IMDb Dataset DetailsEach dataset is contained in a gzipped, tab-separated-values (TSV) formatted file in the UTF-8 character set. The first line in each file contains headers that describe what is in each column. A‘\N’is used to denote that a particular field is missing or null for that title/name. The available datasets are as follows:<br>
+IMDb Dataset DetailsEach dataset is contained in a gzipped, tab-separated-values (TSV) formatted file in the UTF-8 character set. The first line in each file contains headers that describe what is in each column. A‘\N’is used to denote that a particular field is missing or null for that title/name. The available datasets are as follows:<br><br><br>
 <b>title.akas.tsv.gz</b>-Contains the following information for titles:<br>
 ▪titleId(string) -a tconst, an alphanumeric unique identifier of the title<br>
 ▪ordering (integer) –a number to uniquely identify rows for a given titleId<br>
