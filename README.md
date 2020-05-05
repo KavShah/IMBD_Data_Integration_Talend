@@ -27,15 +27,15 @@ IMDb Dataset DetailsEach dataset is contained in a gzipped, tab-separated-values
 ▪runtimeMinutes–primary runtime of the title, in minutes<br>
 ▪genres (string array) –includes up to three genres associated with the title<br><br><br>
 <b>title.crew.tsv.gz</b>–Contains the director and writer information for all the titles in IMDb. Fields include:<br>
-▪tconst(string) -alphanumeric unique identifier of the title<br><br>
+▪tconst(string) -alphanumeric unique identifier of the title<br>
 ▪directors (array of nconsts) -director(s) of the given title<br>
 ▪writers (array of nconsts) –writer(s) of the given title<br><br><br>
 <b>title.episode.tsv.gz</b>–Contains the tv episode information. Fields include:<br>
 ▪tconst(string) -alphanumeric identifier of episode<br>
-▪parentTconst(string) -alphanumeric identifier of the parent TV Series<br><br>
+▪parentTconst(string) -alphanumeric identifier of the parent TV Series<br>
 ▪seasonNumber(integer) –season number the episode belongs to<br>
 ▪episodeNumber(integer) –episode number of the tconstin the TV series<br><br><br>
-<b>title.principals.tsv.gz</>–Contains the principal cast/crew for titles<br><br>
+<b>title.principals.tsv.gz</b>–Contains the principal cast/crew for titles<br>
  ▪tconst(string) -alphanumeric unique identifier of the title<br>
  ▪ordering (integer) –a number to uniquely identify rows for a given titleId<br>
  ▪nconst(string) -alphanumeric unique identifier of the name/person<br>
@@ -45,7 +45,7 @@ IMDb Dataset DetailsEach dataset is contained in a gzipped, tab-separated-values
 <b>title.ratings.tsv.gz</b>–Contains the IMDb rating and votes information for titles<br>
 ▪tconst(string) -alphanumeric unique identifier of the title<br>
 ▪averageRating–weighted average of all the individual user ratings<br>
-▪numVotes-number of votes the title has received<br>
+▪numVotes-number of votes the title has received<br><br><br>
 <b>name.basics.tsv.gz</b>–Contains the following information for names:<br>
 ▪nconst(string) -alphanumeric unique identifier of the name/person<br>
 ▪primaryName(string)–name by which the person is most often credited<br>
