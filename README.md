@@ -1,13 +1,6 @@
 # IMBD_DataIntegration_Talend
 ## IMDb Datasets
 IMDb Dataset DetailsEach dataset is contained in a gzipped, tab-separated-values (TSV) formatted file in the UTF-8 character set. The first line in each file contains headers that describe what is in each column. A‘\N’is used to denote that a particular field is missing or null for that title/name. The available datasets are as follows:<br>
-•title.akas.tsv.gz-Contains information for titles.<br>
-•title.basics.tsv.gz-Contains information for titles.<br>
-•title.crew.tsv.gz–Contains the director and writer information for all the titles in IMDb. <br>
-•title.episode.tsv.gz–Contains the tv episode information.<br>
-•title.principals.tsv.gz–Contains the principal cast/crew for titles<br>
-•title.ratings.tsv.gz–Contains the IMDb rating and votes information for titles<br>
-•name.basics.tsv.gz–Contains information for names.<br><br><br>
 <b>title.akas.tsv.gz</b>-Contains the following information for titles:<br>
 ▪titleId(string) -a tconst, an alphanumeric unique identifier of the title<br>
 ▪ordering (integer) –a number to uniquely identify rows for a given titleId<br>
@@ -72,4 +65,13 @@ This dataset (ml-25m) describes 5-star rating and free-text tagging activity fro
 •Ratings Data File Structure (MovieLens_ ratings.csv)<br>
 •Tags Data File Structure (MovieLens_ tags.csv)<br>
 •Links Data File Structure (MovieLens_ links.csv)<br>
-•Tag Genome (MovieLens_ genome-scores.csv and MovieLens_ genome-tags.csv)<br>
+•Tag Genome (MovieLens_ genome-scores.csv and MovieLens_ genome-tags.csv)<br><br><br>
+## The Numbers<br>
+•<b>Obtaining daily box office data on franchises & their movies by cut & past</b><br>
+▪Franchises Domestic Box Office<br>
+▪Box Office History for Marvel Cinematic Universe Movies<br>
+▪The Avengers (2012)<br>
+•<b>Files</b><br>
+▪The Numbers -Domestic Box Office -Franchises.tsv<br>
+▪The Numbers -Domestic Box Office -Franchises -Marvel Cinematic Universe.tsv<br>
+▪The Numbers -Domestic Box Office Daily -The Avengers.tsv<br>
