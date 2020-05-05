@@ -65,4 +65,11 @@ IMDb Dataset DetailsEach dataset is contained in a gzipped, tab-separated-values
 •<b>Top Movie Brands</b><br>
 ▪IMDb BoxOfficeMojo-Brands (US & Canada).tsv-aggregate data for all brands<br>
 ▪IMDb BoxOfficeMojo-Brand_ Marvel Comics.tsv–data for one brand<br>
-▪Youneedto extract & load data for top 20 brands<br>
+▪Youneedto extract & load data for top 20 brands<br><br><br>
+## Movie Lens Data<br>
+This dataset (ml-25m) describes 5-star rating and free-text tagging activity from [MovieLens](http://movielens.org), a movie recommendation service. It contains 25,000,095 ratings and 1,093,360 tag applications across 62,423 movies. These data were created by 162,541 users between January 09, 1995 and November 21, 2019. This datasetwas generated on November 21, 2019.Description: MovieLens_README.txt<br>
+•Movies Data File Structure (MovieLens_ movies.csv)<br>
+•Ratings Data File Structure (MovieLens_ ratings.csv)<br>
+•Tags Data File Structure (MovieLens_ tags.csv)<br>
+•Links Data File Structure (MovieLens_ links.csv)<br>
+•Tag Genome (MovieLens_ genome-scores.csv and MovieLens_ genome-tags.csv)<br>
