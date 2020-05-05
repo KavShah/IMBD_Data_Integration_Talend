@@ -79,4 +79,7 @@ This dataset (ml-25m) describes 5-star rating and free-text tagging activity fro
 >•Ingest initial set of tsvor csv files into staging tables<br>
 >•Design and load dimensional model for above data<br>
 >•Perform data consistency & cleansing processes<br>
->•Add supplemental data to model•Design and create BI visualizations answering business questions<br>
+>•Add supplemental data to model<br>
+>•Design and create BI visualizations answering business questions<br><br><br>
+## Dimensional Model<br>
+<img src="er.jpg" alt="Drawing" style="width: 100%;"/>
