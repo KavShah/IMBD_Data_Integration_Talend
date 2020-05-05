@@ -52,4 +52,17 @@ IMDb Dataset DetailsEach dataset is contained in a gzipped, tab-separated-values
 ▪birthYear–in YYYY format<br>
 ▪deathYear–in YYYY format if applicable, else '\N'<br>
 ▪primaryProfession(array of strings)–the top-3 professions of the person<br>
-▪knownForTitles(array of tconsts) –titles the person is known for<br>
+▪knownForTitles(array of tconsts) –titles the person is known for<br><br><br>
+## IMDb Datasets –ISO Datasets<br>
+•<b>Countries:</b>countries_iso-all.tsv<br>
+•<b>Languages:</b>language-codes-iso.tsv<br><br><br>
+## IMDb Datasets –Box Office Revenues<br>
+•<b>World Wide Box Office All Time Top 1000 Movies:</b>World Wide Box Office All Time Top 1000.tsv<br>
+•<b>Top Movie Franchises</b><br>
+▪IMDb BoxOfficeMojo-Franchises (US & Canada).tsv–aggregate data for all franchises<br>
+▪IMDb BoxOfficeMojo-Franchise_ Marvel Cinematic Universe.tsv–data for one franchise<br>
+▪You need to extract & load data for top 20 franchises<br>
+•<b>Top Movie Brands</b><br>
+▪IMDb BoxOfficeMojo-Brands (US & Canada).tsv-aggregate data for all brands<br>
+▪IMDb BoxOfficeMojo-Brand_ Marvel Comics.tsv–data for one brand<br>
+▪Youneedto extract & load data for top 20 brands<br>
