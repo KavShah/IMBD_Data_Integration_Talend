@@ -82,4 +82,4 @@ This dataset (ml-25m) describes 5-star rating and free-text tagging activity fro
 >•Add supplemental data to model<br>
 >•Design and create BI visualizations answering business questions<br><br><br>
 ## Dimensional Model<br>
-<img src="er.jpg" alt="Drawing" style="width: 100%;"/><br>
+<img src="er.JPG" alt="Drawing" style="width: 100%;"/><br>
